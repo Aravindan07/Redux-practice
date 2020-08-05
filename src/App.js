@@ -6,6 +6,7 @@ import CakeContainer from './components/cakeContainer';
 import HooksCakeContainer from './components/HooksCakeContainer';
 import IceCreamContainer from './components/iceCreamContainer';
 import BiscuitContainer from './components/biscuitContainer';
+import ModalContainer from './components/modalContainer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <HooksCakeContainer />
       <IceCreamContainer />
       <BiscuitContainer />
+      <ModalContainer />
     </div>
     </Provider>
   );
